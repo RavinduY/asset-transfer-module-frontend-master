@@ -1,0 +1,17 @@
+.AppLayout {
+  max-width: 1366px;
+  margin: auto;
+  > .body {
+    display: flex;
+
+    > .content {
+      width: 100%;
+
+      > .main-body {
+        padding: 10px 20px;
+        min-height: calc(100vh - 200px);
+        background-color: rgb(240, 249, 255);
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.AssignAssetPage {
+  > .filters {
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(242, 240, 240);
+
+    > .ant-input-affix-wrapper {
+      height: 35px;
+      width: 300px;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+
+    > button {
+      background-color: black;
+      color: white;
+      width: 120px;
+      height: 35px;
+      margin-right: 20px;
+    }
+  }
+
+  .asset-asign-table {
+    margin-top: 20px;
+  }
+
+  .pagination {
+    margin-top: 20px;
+    float: right;
+  }
+}
+
+.action-buttons {
+  display: flex;
+}

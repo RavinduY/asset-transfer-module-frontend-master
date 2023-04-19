@@ -1,0 +1,39 @@
+.InterDepartmentTransferPage {
+  > .filters {
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(242, 240, 240);
+
+    > .ant-input-affix-wrapper {
+      height: 35px;
+      width: 300px;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+
+    > button,
+    > button:hover {
+      background-color: black;
+      color: white;
+      width: 120px;
+      height: 35px;
+      margin-right: 20px;
+    }
+  }
+  > .inter-department-transfer-table {
+    margin-top: 20px;
+  }
+
+  > .pagination {
+    float: right;
+    margin-top: 20px;
+  }
+
+  .download-gatepass-button,
+  .download-gatepass-button:hover {
+    background-color: black;
+    color: white;
+    height: 35px;
+  }
+}

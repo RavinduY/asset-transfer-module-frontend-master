@@ -1,0 +1,80 @@
+.Navbar {
+  > .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    box-shadow: 0 4px 2px -2px rgb(211, 209, 209);
+    > .left-side {
+      margin: auto 0;
+    }
+
+    > .right-side {
+      display: flex;
+      justify-content: space-between;
+
+      > .icons {
+        cursor: pointer;
+        margin: auto 0;
+        margin-right: 20px;
+        padding-right: 20px;
+        border-right: 2px solid rgb(235, 225, 225);
+
+        > span {
+          margin: 0 5px;
+        }
+      }
+
+      > .user {
+        margin: auto;
+        > .username {
+          margin-right: 10px;
+        }
+
+        > button {
+          background: gray;
+        }
+      }
+    }
+  }
+  > .navigation {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    height: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+    background-color: rgb(240, 249, 255);
+
+    > span {
+      font-weight: 700;
+      > svg {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.notifications {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(210, 207, 207);
+  height: 50px;
+  padding: 5px 2px;
+  cursor: pointer;
+
+  > .left {
+    > .requestId {
+      font-weight: bold;
+    }
+
+    > .description {
+      font-weight: 100;
+      color: rgb(117, 120, 120);
+    }
+  }
+
+  > .right {
+    color: rgb(117, 120, 120);
+  }
+}

@@ -1,0 +1,112 @@
+.RepairTransferModal_form {
+  padding-bottom: 200px;
+
+  .readonly-input {
+    border: none;
+    background: none !important;
+    width: 230px;
+  }
+
+  > .locations {
+    display: flex;
+    justify-content: space-between;
+
+    > .to-location {
+      margin-right: 50px !important;
+    }
+  }
+
+  > .category {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  > .assets-selection {
+    margin-left: -30px;
+  }
+
+  > .cbc-section {
+    display: flex;
+    justify-content: space-between;
+
+    > button,
+    > button:hover {
+      background-color: black;
+      color: white;
+    }
+
+    > .cbc {
+      display: flex;
+      margin-left: 25px;
+
+      > .cbc-list {
+        margin-left: 20px;
+        grid-column: 5;
+        width: 100px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        > .cbc-item {
+          background-color: gray;
+          margin-left: 10px;
+          height: 25px;
+          padding: 2px;
+          color: wheat;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  .action-buttons {
+    float: right;
+    margin-top: 15px;
+
+    > button,
+    > button:hover {
+      background-color: black;
+      color: white;
+      margin-left: 40px;
+    }
+  }
+}
+
+.add-button {
+  margin-bottom: 10px;
+}
+
+.button-types {
+  display: flex;
+  margin-bottom: 20px;
+  > .buttons {
+    margin-left: 5px;
+    flex: 1;
+  }
+
+  > .button-type {
+    margin: auto;
+    margin-left: 95px;
+  }
+
+  .button-active,
+  .button-active:hover,
+  .button-active:active {
+    background-color: black !important;
+    color: white !important;
+  }
+}
+
+.RepairTransferModal {
+  margin-bottom: 70px;
+}
+
+.cbc-number-table {
+  max-width: 300px;
+  margin: auto;
+}
+
+.switcher {
+  cursor: pointer;
+  margin-left: 50px;
+  width: 100px;
+  margin: auto;
+}

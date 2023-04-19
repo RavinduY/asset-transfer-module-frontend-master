@@ -1,0 +1,33 @@
+.budget-form {
+  > .date-picker {
+    display: flex;
+    justify-content: space-between;
+  }
+  > div .upload-button,
+  > div .upload-button:hover,
+  > div .upload-button:focus {
+    margin-left: 550px;
+    color: white;
+    height: 35px;
+  }
+  > .budget-preview {
+    > .save-button,
+    > .save-button:focus,
+    > .save-button:hover {
+      margin-top: 20px;
+      margin-left: 1000px;
+      color: white;
+      width: 100px;
+      height: 30px;
+    }
+  }
+}
+
+.done-button,
+.done-button:hover,
+.done-button:focus {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 45px;
+}

@@ -1,0 +1,39 @@
+.AssignAssetModal {
+  > div {
+    cursor: pointer;
+  }
+}
+
+.generate-assign-asset-body {
+  padding-bottom: 30px;
+
+  > .asset-detail-items,
+  .asset-detail-item {
+    margin: auto 0;
+    font-weight: 600;
+
+    > span {
+      color: gray;
+      font-weight: 300;
+    }
+  }
+
+  > .asset-collapse {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  > .submit-btn {
+    float: right;
+    color: white;
+  }
+}
+
+.selected-cbc-numbers {
+  margin-bottom: 15px;
+}
+
+.download-gate-pass-btn {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,47 @@
+.CBCGenerateModal {
+  > div {
+    cursor: pointer;
+  }
+}
+
+.generate-cbc {
+  display: flex;
+  justify-content: space-between;
+
+  > .grn,
+  .po {
+    margin: auto 0;
+    font-weight: 600;
+
+    > span {
+      color: gray;
+      font-weight: 300;
+    }
+  }
+
+  > button,
+  > button:hover,
+  > button:focus {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 35px;
+  }
+}
+
+.cbc-collapse {
+  margin-top: 30px;
+}
+.generate-cbc-body {
+  padding-bottom: 30px;
+}
+.save-btn,
+.save-btn:hover,
+.save-btn:focus {
+  margin-top: 10px;
+  float: right;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 35px;
+}

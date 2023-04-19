@@ -1,0 +1,29 @@
+.CBCGeneratorPage {
+  > .filters {
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(242, 240, 240);
+
+    > .ant-input-affix-wrapper {
+      height: 35px;
+      width: 150px;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+
+    > button {
+      background-color: black;
+      color: white;
+      margin-right: 20px;
+    }
+  }
+  .cbc-table {
+    margin-top: 20px;
+  }
+}
+
+.asset-request-pagination {
+  float: right;
+  margin-top: 10px;
+}

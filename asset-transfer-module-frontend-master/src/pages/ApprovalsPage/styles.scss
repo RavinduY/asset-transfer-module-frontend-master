@@ -1,0 +1,33 @@
+.ApprovalsPage {
+  > .options,
+  .filters {
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+    > .ant-select-wrapper {
+      height: 35px;
+      width: 30%;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+
+    > .ant-input-affix-wrapper {
+      height: 35px;
+      width: 30%;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+
+    > button {
+      background-color: black;
+      color: white;
+      width: auto;
+      height: 35px;
+    }
+  }
+
+  .panel-display {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.BudgetUploadModal {
+  .category-search {
+    position: relative;
+    > .search-button {
+      position: absolute;
+      right: 92px;
+      top: 0;
+      margin-left: 100px;
+      background-color: #000000;
+      color: #ffffff;
+      width: 100px;
+    }
+  }
+
+  .save-button {
+    margin-left: 560px;
+    background-color: #000000;
+    color: #ffffff;
+    width: 100px;
+  }
+}

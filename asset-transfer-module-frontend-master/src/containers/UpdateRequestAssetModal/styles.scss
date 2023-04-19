@@ -1,0 +1,92 @@
+.RequestAssetModal {
+  padding-bottom: 45px;
+  position: relative;
+
+  > .ant-form {
+    > .user-branch {
+      display: flex;
+      margin: 0 100px;
+
+      > .branch {
+        margin-left: 100px;
+      }
+    }
+
+    > .category-quantity {
+      display: flex;
+
+      > .quantity {
+        margin-left: 20px;
+      }
+
+      > .add,
+      > .add:hover {
+        background-color: black;
+        color: white;
+        margin-left: 100px;
+      }
+
+      > .add:disabled {
+        background-color: gray;
+      }
+    }
+
+    > .action-buttons {
+      position: absolute;
+      right: 0;
+      bottom: -10px;
+
+      > .cancel,
+      > .save {
+        background: black;
+        color: white;
+        margin-left: 20px;
+      }
+
+      > .cancel:disabled,
+      > .save:disabled {
+        background: gray;
+      }
+    }
+  }
+
+  .unbudgeted {
+    margin: 0 150px;
+    justify-content: space-between;
+
+    > .budgeted-details,
+    > .unbudgeted-details {
+      display: flex;
+      justify-content: space-between;
+
+      > .title {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px 0;
+        > span {
+          font-weight: normal;
+          color: gray;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  .warning {
+    margin: 20px 150px 0 150px;
+  }
+
+  .action-buttons {
+    float: right;
+    margin-top: 20px;
+    margin-right: 150px;
+
+    > button,
+    > button:hover {
+      background-color: black;
+      color: white;
+      margin-left: 30px;
+      width: 100px;
+    }
+  }
+}

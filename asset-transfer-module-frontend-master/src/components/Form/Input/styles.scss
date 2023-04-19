@@ -1,0 +1,15 @@
+.InputComponent {
+  position: relative;
+
+  > input {
+    margin: 12px 0 !important;
+  }
+
+  > .error {
+    bottom: -8px;
+    color: red;
+    font-size: 12px;
+    left: 0px;
+    position: absolute;
+  }
+}

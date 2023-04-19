@@ -1,0 +1,75 @@
+.UserManagementPage {
+  > .filters {
+    display: flex;
+    > .email,
+    .username,
+    .role,
+    .branch,
+    .user-departments,
+    .status {
+      width: 110px;
+      margin-right: 10px;
+      height: 35px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .branch {
+      width: 140px;
+    }
+
+    .user-departments {
+      width: 180px;
+    }
+
+    .status {
+      width: 70px;
+    }
+
+    > button {
+      background-color: black;
+      color: white;
+      width: 120px;
+      height: 35px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  > .user-table {
+    > .user-pagination {
+      margin-top: 10px;
+      float: right;
+    }
+  }
+  .save-button-container{
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+
+  td:has(> .change-password-btn){
+    text-align: center;
+  }
+
+  .change-password-btn {
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(163, 221, 251) 0%, rgb(118, 185, 238) 100%);
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+  }
+
+  .change-password-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(117, 159, 179) 0%, rgb(79, 126, 164) 100%);
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+  .panel-display{
+    display: flex;
+  }
+}
+

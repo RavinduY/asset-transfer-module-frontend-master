@@ -1,0 +1,136 @@
+.GatePassBody {
+  font-size: 10px;
+  position: relative;
+  height: calc(100vh - 50px);
+
+  .center {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .table1 {
+    display: flex;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .tableBorder {
+    border: 1px solid black;
+    padding: 2px 4px;
+    width: 134px;
+  }
+
+  .tableBorderNoLeft {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 2px 4px;
+    width: 134px;
+  }
+
+  .tableBorderNoTop {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 2px 4px;
+    width: 134px;
+  }
+
+  .tableBorderNoLeftNoTop {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 2px 4px;
+    width: 134px;
+  }
+
+  .tableBorderNoLeftNoTopNoRight {
+    border-bottom: 1px solid black;
+    padding: 2px 4px;
+    width: 134px;
+  }
+
+  .table2 {
+    margin-top: 20px !important;
+    display: flex !important;
+
+    table {
+      border-collapse: collapse !important;
+      > thead {
+        background-color: rgb(202, 227, 251) !important;
+      }
+    }
+
+    th,
+    tr,
+    td {
+      border: 1px solid black !important;
+    }
+  }
+  .reprint {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .condition {
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    opacity: 0.5;
+    page-break-after: always;
+    justify-content: space-between;
+    display: flex;
+  }
+  #content {
+    display: table;
+  }
+
+  #pageFooter {
+    display: table-footer-group;
+  }
+
+  #pageFooter:after {
+    counter-increment: page;
+    content: counter(page);
+  }
+  #pageFooter:after {
+    counter-increment: page;
+    content: 'Page ' counter(page);
+    left: 0;
+    top: 100%;
+    white-space: nowrap;
+    z-index: 20;
+    -moz-border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  }
+  .watermark {
+    position: fixed;
+    top: 50vh;
+    z-index: 9;
+    width: 50vw;
+    page-break-after: always;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.1;
+  }
+}
+.table3 {
+  > table {
+    width: 536px;
+  }
+}
+
+.reduceHeight {
+  height: calc(100vh - 100px);
+}
+
+.pdf-header {
+  > .text {
+    // font-weight: bold;
+    font-size: 20px;
+  }
+}

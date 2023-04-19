@@ -1,0 +1,40 @@
+.asset-category-form {
+  > .asset-category-preview {
+    > .asset-categories {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    > .upload-button,
+    > .upload-button:hover,
+    > .upload-button:focus {
+      //margin-left: 550px;
+      background-color: black;
+      color: white;
+      width: 220px;
+      height: 35px;
+    }
+
+    > .save-button,
+    > .save-button:focus,
+    > .save-button:hover {
+      background-color: black;
+      color: white;
+      width: 150px;
+      height: 45px;
+    }
+  }
+}
+
+.done-button,
+.done-button:hover,
+.done-button:focus {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 45px;
+}
+
+.ant-modal-body {
+  padding-bottom: 60px !important;
+}

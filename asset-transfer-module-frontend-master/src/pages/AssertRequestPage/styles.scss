@@ -1,0 +1,47 @@
+.AssetRequestPage {
+  > .filters {
+    display: flex;
+    margin-bottom: 15px;
+
+    > button {
+      background-color: black;
+      color: white;
+      border-radius: 6px;
+    }
+
+    > .request-input {
+      width: 200px;
+      margin-right: 10px;
+    }
+
+    > .branch,
+    > .budget,
+    > .date-picker {
+      margin-right: 10px;
+    }
+
+    > .search,
+    > .download,
+    > .status,
+    > .request {
+      margin: 0 10px;
+    }
+
+    > .status {
+      width: 200px;
+    }
+  }
+  > .asset-request-body {
+    > .asset-request {
+      > .asset-request-pagination {
+        float: right;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .normal {
+    background: white !important;
+    color: black !important;
+  }
+}

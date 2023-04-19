@@ -1,0 +1,52 @@
+.BudgetModulePage {
+  > .filters {
+    display: flex;
+    > .branch,
+    .budget-type,
+    .year,
+    .asset-category {
+      width: 110px;
+      margin-right: 10px;
+      height: 35px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .branch {
+      width: 140px;
+    }
+
+    .budget-type {
+      width: 140px;
+    }
+
+    .year {
+      width: 140px;
+    }
+
+    .asset-category {
+      width: 140px;
+    }
+
+    .user-departments {
+      width: 180px;
+    }
+
+    > button,
+    > div > button {
+      background-color: black;
+      color: white;
+      min-width: 120px;
+      height: 35px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  > .budget-table {
+    > .budget-pagination {
+      float: right;
+      margin-top: 10px;
+    }
+  }
+}

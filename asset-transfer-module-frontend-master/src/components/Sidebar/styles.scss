@@ -1,0 +1,48 @@
+.Sidebar {
+  margin-top: 20px;
+}
+.selected-menu {
+  color: #1890ff !important;
+}
+
+.logo {
+  margin-top: 10px;
+  width: 240px;
+}
+.user-details {
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+
+  .user-icon {
+    margin: auto 0;
+    position: relative;
+
+    > .online-icon {
+      position: absolute;
+      top: 32px;
+      left: 40px;
+    }
+  }
+
+  > .details {
+    margin-left: 10px;
+
+    > .name {
+      font-weight: 200;
+      color: gray;
+      font-size: 12px;
+    }
+
+    > .role {
+      font-weight: 500;
+      font-size: 15px;
+      color: rgb(26, 23, 23);
+    }
+    > .branch {
+      font-weight: 800;
+      color: rgb(26, 23, 23);
+    }
+  }
+}

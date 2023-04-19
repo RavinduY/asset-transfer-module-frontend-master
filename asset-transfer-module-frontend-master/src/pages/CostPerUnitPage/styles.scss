@@ -1,0 +1,35 @@
+.CostPerUnitPage {
+  > .filters {
+    margin-bottom: 20px;
+    display: flex;
+
+    > .category,
+    > .year {
+      width: 150px;
+      margin-right: 20px;
+    }
+    > .category {
+      width: 350px;
+    }
+    > .buttons-section {
+      display: flex;
+
+      > .search,
+      > .upload,
+      > .amend,
+      > .download,
+      > .search:hover,
+      > .download:hover,
+      > .upload:hover,
+      > .amend:hover {
+        margin-right: 15px;
+        color: white;
+      }
+    }
+  }
+
+  .cost-pagination {
+    margin-top: 20px;
+    float: right;
+  }
+}
